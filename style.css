@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body
+{
+  background-color: #aba3a9;
+}
+
+.center
+{
+  margin: auto;
+  width: 50em;
+  padding: 2%;
+}
+
+.resume
+{
+border: 2px solid #000000;
+background-color: #f1f1f1;
+margin: auto;
+padding: 30px;
+font-family: "montserrat", "times new roman", sans-serif;
+}
+
+.torres
+{
+border: 1px solid #000000;
+border-radius: 50%;
+float: right;
+margin-left: 20px;
+}
+
+.top
+{
+  text-align: right;
+}
+
+hr
+{
+border-top: 1px solid #000000;  
+}
+
+.skills_contact
+{
+  display: flex;
+}
+
+.column_skills
+{
+  flex: 1;
+}
+
+.column_contact
+{
+  flex: 1;
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+
+li
+{
+  margin: 1.5px;
+  font-family: "montserrat", "times new roman", sans-serif;
+}
+
+a:link {
+  text-decoration: none
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ed4556;
+}
+
+a:hover {
+  text-shadow: #14f53a 0 0 10px, #1aeaac 5px 5px 5px;
+  color: #ed4556;
+}
+
+a:active {
+  text-decoration: none;
+  color: #0c8edf;
+}
+
+p{
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+ol
+{
+  font-size: 13px;
+}
+
+ul
+{
+  font-size: 13px;
+}
